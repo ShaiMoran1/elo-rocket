@@ -1,0 +1,31 @@
+.board-row {
+
+    .board-square {
+        width: 5rem;
+        height: 5rem;
+
+        &.white {
+            background-color: var(--white-tile);
+        }
+
+        &.black {
+            background-color: var(--black-tile);
+        }
+    }
+}
+
+.board-row-label {
+    margin-right: 0.5rem;
+    font-weight: bold;
+}
+
+.board-col-label {
+    margin-top: 0.5rem;
+    font-weight: bold;
+    padding-left: 1rem;
+
+    div {
+        width: 5rem;
+        text-align: center;
+    }
+}

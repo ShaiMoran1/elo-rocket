@@ -1,0 +1,12 @@
+html {
+    --bg: #f0f0f0;
+    --text: #121212;
+    --black-tile: #b58863;
+    --white-tile: #f0d9b5;
+
+
+    :has(.dark-theme) {
+        --bg: #242424;
+        --text: #e0e0e0;
+    }
+}
